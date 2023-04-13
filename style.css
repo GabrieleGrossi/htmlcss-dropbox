@@ -51,5 +51,15 @@ h1{
 }
 
 main{
-  margin: 5rem 30rem 0 30rem;  
+  margin: 5rem 25rem 0 25rem;  
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    height: 30rem;
+    width: calc((100% / 3) - 3rem);
+    border: 1px solid black;    
 }
