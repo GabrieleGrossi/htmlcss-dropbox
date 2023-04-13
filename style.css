@@ -63,3 +63,16 @@ main{
     width: calc((100% / 3) - 3rem);
     border: 1px solid black;    
 }
+.head-card{
+    padding: 1rem 0 1rem 0;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.subheading{
+    color: grey;
+}
+
+.card-main-content{
+    padding: 2rem 2rem 2rem 2rem;
+}
