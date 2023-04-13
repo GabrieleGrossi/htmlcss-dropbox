@@ -49,3 +49,7 @@ h1{
     flex-direction: column;
     width: 20rem;
 }
+
+main{
+  margin: 5rem 30rem 0 30rem;  
+}
