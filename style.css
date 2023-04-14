@@ -86,6 +86,10 @@ div.jumbo .container-jumbo{
     border-bottom: 1px solid black;
 }
 
+h4{
+    margin-bottom: 3rem;
+}
+
 .subheading{
     color: grey;
     padding-bottom: 3rem;
@@ -111,12 +115,12 @@ div.container-image{
     border: 2px black solid;
 }
 
- div.middle-text{
+div.middle-text{
     width: 40%;
     border: 2px black solid;
  }
 
- div.opt-selection{
+div.opt-selection{
     width: calc((100% / 3) - 2rem);
     height: 15rem;
     border: 1px black solid;
