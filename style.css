@@ -60,7 +60,8 @@ div.column-70 img{
 }
 
 main{
-    margin: 5rem 25rem 0 25rem; 
+    width: 70%;
+    margin: auto; 
 }
 
 .flex-card{
@@ -113,8 +114,9 @@ div.container-image{
     border: 1px black solid;
  }
 
- section.pub-spam{
+.pub-spam{
     border: 1px black solid;
     height: 10rem;
-    margin: 0 auto;
+    margin: 0;
+    width: 100%;
  }
