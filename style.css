@@ -91,3 +91,29 @@ main{
     margin-top: 5rem;
     border:1px solid black;  
 }
+section.middle-section{
+    margin-top: 2rem;
+    border: 2px black solid;
+}
+
+div.container-image{
+    width: 60%;
+    height: 10rem;
+    border: 2px black solid;
+}
+
+ div.middle-text{
+    width: 40%;
+    border: 2px black solid;
+ }
+
+ div.opt-selection{
+    width: calc((100% / 3) - 2rem);
+    height: 15rem;
+    border: 1px black solid;
+ }
+
+ section.pub-spam{
+    border: 1px black solid;
+    
+ }
