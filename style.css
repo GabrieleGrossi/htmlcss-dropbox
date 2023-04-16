@@ -67,14 +67,15 @@ div.jumbo .container-jumbo{
     width: 70%;
     margin: auto; 
 }
-.width-70 h2{
+section.width-70 > h3{
     margin: 2rem 0 2rem 0;
+    font-size: 3rem;
 }
 
 .flex-card{
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .card{
     width: calc((100% / 3) - 3rem);
@@ -92,11 +93,14 @@ h4{
 
 .subheading{
     color: grey;
-    padding-bottom: 3rem;
+    padding: 2rem 0 2rem;
 }
 
 .card-main-content{
     padding: 2rem 2rem 2rem 2rem;
+}
+.card-main-content h3{
+    padding-bottom: 2rem;
 }
 
 .big-card{
@@ -105,50 +109,70 @@ h4{
     border:1px solid black;  
 }
 section.middle-section{
-    margin-top: 2rem;
-    border: 2px black solid;
+    margin-top: 5rem;
 }
 
 div.container-image{
     width: 60%;
-    height: 10rem;
-    border: 2px black solid;
+    height: 37rem;
+    background-image: url(img/partner.png);
+    background-size: cover;
 }
 
 div.middle-text{
     width: 40%;
-    border: 2px black solid;
+    padding-left: 2rem;
+ }
+ div.middle-text h3,p,button{
+    margin-top: 3rem;
  }
 
 div.opt-selection{
     width: calc((100% / 3) - 2rem);
-    height: 15rem;
-    border: 1px black solid;
+    height: 30rem;
+ }
+
+ div.opt-selection img{
+    width: 90%;
  }
 
 .pub-spam{
     border: 1px black solid;
+    height: 35rem;
+    margin-top: 10rem;
+    width: 100%;
+ }
+.pub-spam1{
+    border: 1px black solid;
     height: 20rem;
     margin: 0;
     width: 100%;
- }
-
- .column4{
+    background-color:lightblue;
+}
+.column4{
     width: calc(100% / 3);
     border: 1px solid black;
     height: 100%;
  }
 
- .big-column{
+.big-column{
     border: 1px solid black;
  }
+div.main-section h2{
+    font-size: 2rem;
+    margin: 8rem 0 5rem 0;
+}
 
- .single-adv{
+.single-adv{
     border: 1px solid black;
     width: 50%;
     height: 50%;
     margin-top: auto;
- }
+}
+
+div.single-adv img{
+    width: 70%;
+}
 
  .flex-wrap{
     display: flex;
