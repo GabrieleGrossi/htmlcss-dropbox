@@ -67,6 +67,9 @@ div.jumbo .container-jumbo{
     width: 70%;
     margin: auto; 
 }
+.width-70 h2{
+    margin: 8rem 0 4rem 0;
+}
 section.width-70 > h3{
     margin: 2rem 0 2rem 0;
     font-size: 3rem;
@@ -122,11 +125,16 @@ div.container-image{
 div.middle-text{
     width: 40%;
     padding-left: 2rem;
- }
-div.middle-text h3,p,button{
+}
+div.middle-text h3{
     margin-top: 3rem;
- }
-
+}
+div.middle-text p{
+    margin-top: 3rem;
+}
+div.middle-text button{
+    margin-top: 3rem;
+}
 div.opt-selection{
     width: calc((100% / 3) - 2rem);
     height: 30rem;
@@ -137,13 +145,10 @@ div.opt-selection{
  }
 
 .pub-spam{
-    border: 1px black solid;
-    height: 35rem;
     margin-top: 10rem;
     width: 100%;
  }
 .pub-spam1{
-    border: 1px black solid;
     height: 20rem;
     margin: 0;
     width: 100%;
@@ -165,34 +170,68 @@ div.content-pub-spam1 button{
     padding: 1rem;
 }
 .column4{
-    width: calc(100% / 3);
-    border: 1px solid black;
+    width: 100%;
     height: 100%;
 }
 
 .big-column{
-    border: 1px solid black;
- }
+    height: 33vw;
+    background-color: lightgrey;
+}
+div.big-column img{
+    margin: 2rem 2rem 2rem 2rem;
+    width: 70%;
+}
+div.big-column p{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+div.big-column hr{
+    margin-left: 2rem;
+}
 div.main-section h2{
     font-size: 2rem;
     margin: 8rem 0 5rem 0;
 }
 
 .single-adv{
-    border: 1px solid black;
-    width: 50%;
-    height: 50%;
+    width: 16.45vw;
+    height: 16.45vw;
     margin-top: auto;
 }
 
 div.single-adv img{
     width: 70%;
+    filter: invert(1);
 }
-
+.verde{
+    background-color: lightgreen;
+}
+.amaranto{
+    background-color: brown;
+}
+.celeste{
+    background-color: lightsteelblue;
+}
+.rosso{
+    background-color: red;
+}
+.light-red{
+    background-color: orangered;
+}
+.sky{
+    background-color: skyblue;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: rgba(202, 186, 8, 0.795);
+}
 .flex-wrap{
     display: flex;
     flex-wrap: wrap;
- }
+}
 
 .question{
     margin-bottom: 10rem;
@@ -218,10 +257,12 @@ footer{
     margin: 3rem 0 1rem;
 }
 
-.margin-auto{
+.margin-0{
     margin: 0;
  }
-
+.margin-auto{
+    margin: auto;
+}
 .margin-top{
     margin-top: 8rem;
     margin-bottom: 1rem;
