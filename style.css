@@ -224,6 +224,7 @@ footer{
 
 .margin-top{
     margin-top: 8rem;
+    margin-bottom: 1rem;
 }
 .flex2{
     display: flex;
