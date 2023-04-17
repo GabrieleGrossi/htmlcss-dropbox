@@ -84,6 +84,13 @@ section.width-70 > h3{
     width: calc((100% / 3) - 3rem);
     border: 1px solid black;    
 }
+div.card button.button-blue{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+div.card-main-content hr{
+    margin: 2rem 0 2rem;
+}
 .head-card{
     padding: 1rem 0 1rem 0;
     justify-content: center;
