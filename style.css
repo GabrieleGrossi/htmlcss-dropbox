@@ -62,6 +62,10 @@ div.jumbo .container-jumbo{
     width: 70%;
     height: 100%;
 }
+.column-70 img{
+    position: relative;
+    top: 6rem;
+}
 
 .width-70{
     width: 70%;
@@ -283,4 +287,10 @@ footer{
 }
 .flex2{
     display: flex;
+}
+
+.ask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
